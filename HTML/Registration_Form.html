@@ -1,0 +1,53 @@
+<form action="action_page.php">
+    <div class="container">
+      <h1><b>Register Form</b></h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+      </div>
+
+      <div>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      </div>
+
+      <div>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      </div>
+      <div>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <label for="psw-repeat"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      </div>
+
+      <div>
+        <input type="date" name="dob">
+      </div>
+
+      <div>
+        <hr>
+        <select name="Gender Identity:">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Non-binary</option>
+          <option>I prefer not to answer</option>
+      </select>
+      </div>
+
+      <div>
+      <textarea name="comment" cols="20" rows="3"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to recieve periodic email updates</label>
+      </div>
+      <p><a href="#"></a></p>
+      <button type="submit" class="registerbtn">Create Account</button>
+      </div>
+      <div class="container signin">
+      </div>
+  </form>
