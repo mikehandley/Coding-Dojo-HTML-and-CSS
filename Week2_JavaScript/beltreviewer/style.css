@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: inbetween;
+}
+
+#logo{
+    height: 100px;
+}
+
+#user{
+    height: 60px;
+}
+    
+#header-l, #header-r{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.4rem;
+    font-family: cursive;
+}
