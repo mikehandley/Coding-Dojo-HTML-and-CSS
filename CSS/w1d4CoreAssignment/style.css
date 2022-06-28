@@ -8,23 +8,20 @@
     margin: auto;   
     text-align: center;
 }
-.mainBody1{
-    background-color: rgb(0, 255, 170);
+.mainBody1,.mainBody2,.mainBody3{
     padding: 20px;
     margin: auto;
     display: flex; 
 }
+.mainBody1{
+    background-color: rgb(0, 255, 170);
+}
 .mainBody2{
     background-color: crimson;
-    padding: 20px;
-    margin: auto;
     display: flex; justify-content: center;
 }
 .mainBody3{
     background-color: fuchsia;
-    padding: 20px;
-    margin: auto;
-    display: flex; 
 }
 h1{
     text-align: center;
