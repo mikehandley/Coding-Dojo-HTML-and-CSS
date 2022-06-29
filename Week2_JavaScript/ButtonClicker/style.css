@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.nav {
+    background-color: #888888;
+    color: rgb(1, 1, 1);
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 70%;
+}
+
+.section {
+    flex: 2;
+    display: flex;
+    border: 3px solid black;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.left {
+    padding: 15px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    font-size: 25px
+}
+
+.noun {
+    align-self: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.plural {
+    font-weight: bolder;
+}
+
+.plural span {
+    font-style: italic;
+}
+
+#search {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    background-color: #0e2bb9;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.like-btn {
+    background-color: rgb(246, 203, 62);
+    color: black;
+    padding: 2px;
+    width: 110px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.add-btn {
+    color: black;
+    background-color: rgb(123, 179, 123);
+    width: 200px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.main-right {
+    width: 30%;
+}
+
+.main-right .section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.bolder {
+    font-weight: bold;
+}
