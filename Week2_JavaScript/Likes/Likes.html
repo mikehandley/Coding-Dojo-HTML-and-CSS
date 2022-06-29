@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+    <div class="feed">
+        <h1 class="feed-title">Your Feed</h1>
+    </div>
+    <main>
+        <div class="main-left">
+            <div class="section">
+                <img src="./My Pic.jpg" alt="avatar picture">
+                <a href="#">Add an avatar</a>
+                <h1>Michael Handley</h1>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="section">
+                <div class="top">
+                    <h1>Eddie Murphy</h1>
+                    <span class="likes"><span id="counter1">9</span> like(s)</span>
+                    <button class="like-btn" onclick="addLikes('counter1')">Like</button>
+                </div>
+                <div class="bottom">
+                    <span>I just set up my new foundation, let me you all think? <a href="#">link</a></span>
+                </div>
+            </div>
+            <div class="section">
+                <div class="top">
+                    <h1>Dave Chapelle</h1>
+                    <span class="likes"><span id="counter2">12</span> like(s)</span>
+                    <button class="like-btn" onclick="addLikes('counter2')">Like</button>
+                </div>
+                <div class="bottom">
+                    <span>Just finished my <a href="#">next standup routine</a>, check it out</span>
+                </div>
+            </div>
+            <div class="section">
+                <div class="top">
+                    <h1>Richard Pryor</h1>
+                    <span class="likes"><span id="counter3">9</span> like(s)</span>
+                    <button class="like-btn" onclick="addLikes('counter3')">Like</button>
+                </div>
+                <div class="bottom">
+                    <p>I can't stop listening to prince's  <a href="#">new album</a>. 
+                        Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
